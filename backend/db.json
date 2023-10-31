@@ -1,0 +1,60 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "nombre": "FINANZAS",
+      "encargado": "JOSE LINARES",
+      "numero_funcionarios": 2
+    },
+    {
+      "id": 2,
+      "nombre": "INFORMATICA",
+      "encargado": "SONIA CALLE",
+      "numero_funcionarios": 6
+    },
+    {
+      "id": 3,
+      "nombre": "LEGAL",
+      "encargado": "DAVID NINA",
+      "numero_funcionarios": 3
+    },
+    {
+      "nombre": "SERVIDORES",
+      "encargado": "RAUL",
+      "numero_funcionarios": "6",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "nombre": "MANTENIMIENTO",
+      "encargado": "CARLOS",
+      "numero_funcionarios": "4"
+    }
+  ],
+  "activos": [
+    {
+      "id": 1,
+      "tipo": "COMPUTADORA",
+      "marca": "HP",
+      "modelo": "PAVILION 360",
+      "estado": "NUEVO",
+      "areaId": 1
+    },
+    {
+      "id": 2,
+      "tipo": "SILLA PLEGABLE",
+      "marca": "DXRACER",
+      "modelo": "ESTA",
+      "estado": "USADO",
+      "areaId": 3
+    },
+    {
+      "id": 3,
+      "tipo": "ESCRITORIO",
+      "marca": "ES",
+      "modelo": "PAVILION 360",
+      "estado": "NUEVO",
+      "areaId": 3
+    }
+  ]
+}
