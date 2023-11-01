@@ -61,15 +61,15 @@
       <div class="row">
         <div class="col m4">
           <label>Nombre</label>
-          <input type="text" v-model="payload.nombre">
+          <input type="text"  style="text-transform:uppercase" v-model="payload.nombre">
         </div>
         <div class="col m4">
           <label>Encargado</label>
-          <input type="text" v-model="payload.encargado">
+          <input type="text" style="text-transform:uppercase" v-model="payload.encargado">
         </div>
         <div class="col m4">
           <label>Numero de funcionarios</label>
-          <input type="text" v-model="payload.numero_funcionarios">
+          <input type="number" v-model="payload.numero_funcionarios">
         </div>
       </div>
     </div>

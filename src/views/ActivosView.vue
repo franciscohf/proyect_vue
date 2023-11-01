@@ -80,15 +80,15 @@
       <div class="row">
         <div class="col m4">
           <label>Tipo</label>
-          <input type="text" v-model="payload.tipo">
+          <input type="text" style="text-transform:uppercase" v-model="payload.tipo">
         </div>
         <div class="col m4">
           <label>Marca</label>
-          <input type="text" v-model="payload.marca">
+          <input type="text" style="text-transform:uppercase" v-model="payload.marca">
         </div>
         <div class="col m4">
           <label>Modelo</label>
-          <input type="text" v-model="payload.modelo">
+          <input type="text" style="text-transform:uppercase" v-model="payload.modelo">
         </div>
         <div class="col m4">
           <label>Estado</label>
